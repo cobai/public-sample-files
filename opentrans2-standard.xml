@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ORDER version="2.0" type="standard">
+    <ORDER_HEADER>
+        <CONTROL_INFO>
+            <GENERATOR_INFO>cobai.com openTRANS 2.0 generator</GENERATOR_INFO>
+            <GENERATION_DATE>2017-02-16T19:06:01+01:00</GENERATION_DATE>
+        </CONTROL_INFO>
+        <ORDER_INFO>
+            <ORDER_ID>56c00770-d81f-11e6-8169-02c01b511db7</ORDER_ID>
+            <ORDER_DATE>2017-01-11T18:01:33.967+01:00</ORDER_DATE>
+            <PARTIES>
+                <PARTY>
+                    <PARTY_ID type="supplier_specific">5</PARTY_ID>
+                    <PARTY_ROLE>buyer</PARTY_ROLE>
+                    <ADDRESS>
+                        <NAME>Roadshow-Kunde</NAME>
+                        <NAME2>Name 2 des Kunden</NAME2>
+                        <STREET>Lange Straße 1</STREET>
+                        <ZIP>12345</ZIP>
+                        <CITY>Weitweitweg</CITY>
+                        <EMAIL>dirk.lachowski@lacho.net</EMAIL>
+                    </ADDRESS>
+                </PARTY>
+                <PARTY>
+                    <PARTY_ID type="gln">4044581000000</PARTY_ID>
+                    <PARTY_ROLE>intermediary</PARTY_ROLE>
+                </PARTY>
+                <PARTY>
+                    <PARTY_ID type="buyer_specific">5</PARTY_ID>
+                    <PARTY_ROLE>delivery</PARTY_ROLE>
+                    <ADDRESS>
+                        <NAME>Roadshow-Kunde</NAME>
+                        <NAME2>Name 2 des Kunden</NAME2>
+                        <CONTACT_DETAILS>
+                            <CONTACT_ID>t</CONTACT_ID>
+                            <CONTACT_NAME>Test</CONTACT_NAME>
+                            <FIRST_NAME>Thomas</FIRST_NAME>
+                            <PHONE>05132-86460</PHONE>
+                            <FAX></FAX>
+                            <EMAILS>
+<EMAIL>dirk.lachowski@lacho.net</EMAIL>
+                            </EMAILS>
+                        </CONTACT_DETAILS>
+                        <STREET>Lange Straße 1</STREET>
+                        <ZIP>12345</ZIP>
+                        <CITY>Weitweitweg</CITY>
+                        <EMAIL>dirk.lachowski@lacho.net</EMAIL>
+                    </ADDRESS>
+                </PARTY>
+            </PARTIES>
+            <ORDER_PARTIES_REFERENCE>
+                <BUYER_IDREF type="party_specific">5</BUYER_IDREF>
+                <SUPPLIER_IDREF type="iln">4044581000000</SUPPLIER_IDREF>
+            </ORDER_PARTIES_REFERENCE>
+            <CUSTOMER_ORDER_REFERENCE></CUSTOMER_ORDER_REFERENCE>
+            <CURRENCY>EUR</CURRENCY>
+        </ORDER_INFO>
+    </ORDER_HEADER>
+    <ORDER_ITEM_LIST>
+        <ORDER_ITEM>
+            <LINE_ITEM_ID>1</LINE_ITEM_ID>
+            <PRODUCT_ID>
+                <SUPPLIER_PID>220164001</SUPPLIER_PID>
+                <DESCRIPTION_SHORT>Stuhlkarren 1335 L</DESCRIPTION_SHORT>
+            </PRODUCT_ID>
+            <QUANTITY>1.0</QUANTITY>
+            <ORDER_UNIT>C62</ORDER_UNIT>
+            <PRODUCT_PRICE_FIX>
+                <PRICE_AMOUNT>99.00</PRICE_AMOUNT>
+            </PRODUCT_PRICE_FIX>
+            <PRICE_LINE_AMOUNT>99.00</PRICE_LINE_AMOUNT>
+        </ORDER_ITEM>
+        <ORDER_ITEM>
+            <LINE_ITEM_ID>2</LINE_ITEM_ID>
+            <PRODUCT_ID>
+                <SUPPLIER_PID>853136</SUPPLIER_PID>
+                <DESCRIPTION_SHORT>Universalschere links 21 cm</DESCRIPTION_SHORT>
+            </PRODUCT_ID>
+            <QUANTITY>1.0</QUANTITY>
+            <ORDER_UNIT>C62</ORDER_UNIT>
+            <PRODUCT_PRICE_FIX>
+                <PRICE_AMOUNT>0.00</PRICE_AMOUNT>
+            </PRODUCT_PRICE_FIX>
+            <PRICE_LINE_AMOUNT>0.00</PRICE_LINE_AMOUNT>
+        </ORDER_ITEM>
+        <ORDER_ITEM>
+            <LINE_ITEM_ID>3</LINE_ITEM_ID>
+            <PRODUCT_ID>
+                <SUPPLIER_PID>903522</SUPPLIER_PID>
+                <DESCRIPTION_SHORT>colour laser - A3, 160 g/qm, weiß, 250 Blatt</DESCRIPTION_SHORT>
+            </PRODUCT_ID>
+            <QUANTITY>1.0</QUANTITY>
+            <ORDER_UNIT>C62</ORDER_UNIT>
+            <PRODUCT_PRICE_FIX>
+                <PRICE_AMOUNT>0.00</PRICE_AMOUNT>
+            </PRODUCT_PRICE_FIX>
+            <PRICE_LINE_AMOUNT>0.00</PRICE_LINE_AMOUNT>
+        </ORDER_ITEM>
+        <ORDER_ITEM>
+            <LINE_ITEM_ID>4</LINE_ITEM_ID>
+            <PRODUCT_ID>
+                <SUPPLIER_PID>902358</SUPPLIER_PID>
+                <DESCRIPTION_SHORT>Leibniz Minis Choco Cookie Cup</DESCRIPTION_SHORT>
+            </PRODUCT_ID>
+            <QUANTITY>1.0</QUANTITY>
+            <ORDER_UNIT>C62</ORDER_UNIT>
+            <PRODUCT_PRICE_FIX>
+                <PRICE_AMOUNT>0.00</PRICE_AMOUNT>
+            </PRODUCT_PRICE_FIX>
+            <PRICE_LINE_AMOUNT>0.00</PRICE_LINE_AMOUNT>
+        </ORDER_ITEM>
+        <ORDER_ITEM>
+            <LINE_ITEM_ID>5</LINE_ITEM_ID>
+            <PRODUCT_ID>
+                <SUPPLIER_PID>903525</SUPPLIER_PID>
+                <DESCRIPTION_SHORT>colour laser - A4, 190 g/qm, weiß, 250 Blatt</DESCRIPTION_SHORT>
+            </PRODUCT_ID>
+            <QUANTITY>1.0</QUANTITY>
+            <ORDER_UNIT>C62</ORDER_UNIT>
+            <PRODUCT_PRICE_FIX>
+                <PRICE_AMOUNT>0.00</PRICE_AMOUNT>
+            </PRODUCT_PRICE_FIX>
+            <PRICE_LINE_AMOUNT>0.00</PRICE_LINE_AMOUNT>
+        </ORDER_ITEM>
+    </ORDER_ITEM_LIST>
+    <ORDER_SUMMARY>
+        <TOTAL_ITEM_NUM>5</TOTAL_ITEM_NUM>
+        <TOTAL_AMOUNT>119.13</TOTAL_AMOUNT>
+    </ORDER_SUMMARY>
+</ORDER>

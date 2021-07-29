@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ORDER version="2.0" type="standard">
+    <ORDER_HEADER>
+        <CONTROL_INFO>
+            <GENERATOR_INFO>cobai.com openTRANS 2.0 generator (version for GEGA IT-Solutions)</GENERATOR_INFO>
+            <GENERATION_DATE>2016-07-07T15:48:28+02:00</GENERATION_DATE>
+        </CONTROL_INFO>
+        <ORDER_INFO>
+            <ORDER_ID>490478b0-4449-11e6-b598-02c01b511db7</ORDER_ID>
+            <ORDER_DATE>2016-07-07T15:47:56.271+02:00</ORDER_DATE>
+            <PARTIES>
+                <PARTY>
+                    <PARTY_ID type="supplier_specific">5</PARTY_ID>
+                    <PARTY_ID type="cobai-customer-id">c0bc3796-6d99-4693-826c-47fd5bfbaedb</PARTY_ID>
+                    <PARTY_ROLE>buyer</PARTY_ROLE>
+                    <ADDRESS>
+                        <NAME>Roadshow-Kunde</NAME>
+                        <NAME2>Name 2 des Kunden</NAME2>
+                        <STREET>Lange Straße 1</STREET>
+                        <ZIP>12345</ZIP>
+                        <CITY>Weitweitweg</CITY>
+                        <EMAIL>dirk@lacho.net</EMAIL>
+                    </ADDRESS>
+                </PARTY>
+                <PARTY>
+                    <PARTY_ID type="gln">4044581000000</PARTY_ID>
+                    <PARTY_ROLE>intermediary</PARTY_ROLE>
+                </PARTY>
+                <PARTY>
+                    <PARTY_ID type="buyer_specific">5</PARTY_ID>
+                    <PARTY_ID type="cobai-customer-id">c0bc3796-6d99-4693-826c-47fd5bfbaedb</PARTY_ID>
+                    <PARTY_ROLE>delivery</PARTY_ROLE>
+                    <ADDRESS>
+                        <NAME>Roadshow-Kunde</NAME>
+                        <NAME2>Name 2 des Kunden</NAME2>
+                        <CONTACT_DETAILS>
+                            <CONTACT_ID>kv</CONTACT_ID>
+                            <CONTACT_NAME>Kostenstellenverwalter</CONTACT_NAME>
+                            <FIRST_NAME>Klaus</FIRST_NAME>
+                            <PHONE>05132-86460</PHONE>
+                            <FAX></FAX>
+                            <EMAILS>
+<EMAIL>dirk@lacho.net</EMAIL>
+                            </EMAILS>
+                        </CONTACT_DETAILS>
+                        <STREET>Lange Straße 1</STREET>
+                        <ZIP>12345</ZIP>
+                        <CITY>Weitweitweg</CITY>
+                        <EMAIL>dirk@lacho.net</EMAIL>
+                    </ADDRESS>
+                </PARTY>
+            </PARTIES>
+            <ORDER_PARTIES_REFERENCE>
+                <BUYER_IDREF type="party_specific">5</BUYER_IDREF>
+                <SUPPLIER_IDREF type="iln">4044581000000</SUPPLIER_IDREF>
+            </ORDER_PARTIES_REFERENCE>
+            <CUSTOMER_ORDER_REFERENCE></CUSTOMER_ORDER_REFERENCE>
+            <CURRENCY>EUR</CURRENCY>
+            <HEADER_UDX>
+                <UDX.COBAI.SHIPPING></UDX.COBAI.SHIPPING>
+                <UDX.COBAI.COST_CATEGORY_ID></UDX.COBAI.COST_CATEGORY_ID>
+                <UDX.COBAI.PAYMENT_SYSTEM_NAME>net.lacho.payment.methods.PaymentMethodPrepayed</UDX.COBAI.PAYMENT_SYSTEM_NAME>
+            </HEADER_UDX>
+        </ORDER_INFO>
+    </ORDER_HEADER>
+    <ORDER_ITEM_LIST>
+        <ORDER_ITEM>
+            <LINE_ITEM_ID>1</LINE_ITEM_ID>
+            <PRODUCT_ID>
+                <SUPPLIER_PID>850350020</SUPPLIER_PID>
+                <DESCRIPTION_SHORT>Flipchart-Block, 68 x 99 cm, kariert/blanko, 20 Blatt</DESCRIPTION_SHORT>
+            </PRODUCT_ID>
+            <QUANTITY>5.0</QUANTITY>
+            <ORDER_UNIT>C62</ORDER_UNIT>
+            <PRODUCT_PRICE_FIX>
+                <PRICE_AMOUNT>3.95</PRICE_AMOUNT>
+                <TAX_DETAILS_FIX>
+                    <TAX_TYPE>VAT</TAX_TYPE>
+                    <TAX>0.19</TAX>
+                </TAX_DETAILS_FIX>
+                <ALLOW_OR_CHARGES_FIX>
+                    <ALLOW_OR_CHARGE type="surcharge">
+                        <ALLOW_OR_CHARGE_NAME>EMIZ</ALLOW_OR_CHARGE_NAME>
+                        <ALLOW_OR_CHARGE_DESCR>Versand</ALLOW_OR_CHARGE_DESCR>
+                        <ALLOW_OR_CHARGE_VALUE>
+                            <AOC_MONETARY_AMOUNT>3.63</AOC_MONETARY_AMOUNT>
+                        </ALLOW_OR_CHARGE_VALUE>
+                    </ALLOW_OR_CHARGE>
+                </ALLOW_OR_CHARGES_FIX>
+            </PRODUCT_PRICE_FIX>
+            <PRICE_LINE_AMOUNT>19.75</PRICE_LINE_AMOUNT>
+        </ORDER_ITEM>
+        <ORDER_ITEM>
+            <LINE_ITEM_ID>2</LINE_ITEM_ID>
+            <PRODUCT_ID>
+                <SUPPLIER_PID>713212</SUPPLIER_PID>
+                <DESCRIPTION_SHORT>Sammelhülle - A4, 2-tlg., Pack 100 Stück</DESCRIPTION_SHORT>
+            </PRODUCT_ID>
+            <QUANTITY>100.0</QUANTITY>
+            <ORDER_UNIT>C62</ORDER_UNIT>
+            <PRODUCT_PRICE_FIX>
+                <PRICE_AMOUNT>0.23</PRICE_AMOUNT>
+                <TAX_DETAILS_FIX>
+                    <TAX_TYPE>VAT</TAX_TYPE>
+                    <TAX>0.19</TAX>
+                </TAX_DETAILS_FIX>
+                <ALLOW_OR_CHARGES_FIX>
+                    <ALLOW_OR_CHARGE type="surcharge">
+                        <ALLOW_OR_CHARGE_NAME>EMIZ</ALLOW_OR_CHARGE_NAME>
+                        <ALLOW_OR_CHARGE_DESCR>Versand</ALLOW_OR_CHARGE_DESCR>
+                        <ALLOW_OR_CHARGE_VALUE>
+                            <AOC_MONETARY_AMOUNT>4.21</AOC_MONETARY_AMOUNT>
+                        </ALLOW_OR_CHARGE_VALUE>
+                    </ALLOW_OR_CHARGE>
+                </ALLOW_OR_CHARGES_FIX>
+            </PRODUCT_PRICE_FIX>
+            <PRICE_LINE_AMOUNT>23.00</PRICE_LINE_AMOUNT>
+        </ORDER_ITEM>
+    </ORDER_ITEM_LIST>
+    <ORDER_SUMMARY>
+        <TOTAL_ITEM_NUM>2</TOTAL_ITEM_NUM>
+        <TOTAL_AMOUNT>60.2</TOTAL_AMOUNT>
+    </ORDER_SUMMARY>
+</ORDER>
